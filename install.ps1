@@ -3,6 +3,9 @@ choco upgrade chocolatey -y
 choco install git -y
 choco install python3 -y
 python -m pip install --upgrade pip
+# installing git repo
+git clone https://github.com/arijitdas123student/gtp2-gradio.git
+cd gtp2-gradio
 # installing required python packages
 pip install -r requirements.txt
 # running the python app
